@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<project name="Film Production" company="" manager="" phase="" project-start="20190708T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day"/>
+      <day-type id="1" name="Nonworking" description="A default non working day"/>
+      <day-type id="2" name="Use base" description="Use day from base calendar"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20190713" type="day-type" id="1"/>
+      </days>
+      <calendar id="2" name="Full Week">
+        <default-week mon="2" tue="2" wed="2" thu="2" fri="2" sat="0" sun="0"/>
+        <overridden-day-types/>
+        <days>
+          <day date="20190713" type="day-type" id="0"/>
+        </days>
+      </calendar>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Development" note="" work="457200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="New Concept" note="" work="111600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="3" name="Create File Folder" note="" work="25200" start="20190708T000000Z" end="20190708T160000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="4" name="Create Project Directory" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="5" name="Start Journal" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="6" name="Prioritize" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="7" name="Index Cards" note="" work="86400" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="8" name="Draft Index Cards" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="9" name="Review Index Cards" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="10" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="11" name="Draft Script" note="" work="115200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="12" name="Step Outline" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="13" name="Draft Script" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="14" name="Review Draft Script" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="15" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="16" name="Final Script" note="" work="144000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="17" name="Seek outside criticims of draft" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="18" name="Review Outside Criticims for validity" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="19" name="Refactor Script" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="20" name="Shooting Script" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="21" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+    </task>
+    <task id="22" name="Pre Production" note="" work="1382400" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="23" name="Setup Production Office" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="24" name="Budget" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="25" name="Incorporate" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="26" name="License Script" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="27" name="Scout Ket Crew" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="28" name="Scout Key cast" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="29" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="30" name="Script Breakdown" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="31" name="Mark Eigths" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="32" name="Mark Elements" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="33" name="Scene Reports" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="34" name="Scene Strips" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="35" name="Stripboard" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="36" name="Script Report" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="37" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="38" name="Production Design" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="39" name="World Building" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="40" name="Character Bios" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="41" name="Scout Locations" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="42" name="Concept Art" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="43" name="Sort Board" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="44" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="45" name="Animatic" note="" work="144000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="46" name="Voice Over Casting" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="47" name="Schedule Read Through" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="48" name="Edit Animatic" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="49" name="Review Animatic" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="50" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="51" name="Business Plan" note="" work="345600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="52" name="Budget" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="53" name="Press Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="54" name="Marketing Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="55" name="Distribution Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="56" name="Revenue Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="57" name="Bond LOI" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="58" name="Insurance LOI" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="59" name="Cast Bio and LOI" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="60" name="Crew Bio and LOI" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="61" name="Executive Summary" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="62" name="Compile Business Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="63" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="64" name="Fundraising" note="" work="115200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="65" name="Primary Funding" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="66" name="Secondary Funding" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="67" name="Emergency Funding" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="68" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="69" name="Additional Cast and Crew" note="" work="230400" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="70" name="Confirm Cast and Crew Needs" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="71" name="Draft Call" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="72" name="Announce Call" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="73" name="Audition" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="74" name="Interview" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="75" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="76" name="Select" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="77" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+    </task>
+    <task id="78" name="Production" note="" work="604800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="79" name="Call Sheet" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="80" name="Tentative Schedule" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="81" name="Primary Location" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="82" name="Secondary Location" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="83" name="Draft Call Sheet" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="84" name="Finalize Call Sheet" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="85" name="Send" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="86" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="87" name="Principal Photography" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="88" name="Loadout" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="89" name="PMCS" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="90" name="On Set" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="91" name="Load In" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="92" name="Clean" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="93" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="94" name="Film Processing" note="" work="86400" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="95" name="Develop" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="96" name="DI Scanning" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="97" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="98" name="Front End Archive" note="" work="144000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="99" name="Generate Hash" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="100" name="Copy to HDD" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="101" name="Verify Copy" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="102" name="Generate Parity Files" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="103" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+    </task>
+    <task id="104" name="Post Production" note="" work="2361600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="105" name="Pre Edit" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="106" name="Copy to Project Directory" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="107" name="Rename Files if Necessary" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="108" name="Load Into NLE" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="109" name="Confirm Metadata" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="110" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="111" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="112" name="Rough Edit" note="" work="288000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="113" name="Edit" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="114" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="115" name="Review Edit" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="116" name="Refactor" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="117" name="Graphics Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="118" name="Music Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="119" name="Foley Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="120" name="ADR Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="121" name="Pickup and Reshoot Plan" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="122" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="123" name="Graphics" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="124" name="Create Graphics" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="125" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="126" name="Backup" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="127" name="Insert into Timeline" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="128" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="129" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="130" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="131" name="Detailed Edit" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="132" name="Confilm Needs" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="133" name="Confirm Credits" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="134" name="Edit" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="135" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="136" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="137" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="138" name="Transcript" note="" work="115200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="139" name="Rough Transcript" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="140" name="Edit" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="141" name="Translate" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="142" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="143" name="Dialog Replacement" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="144" name="Recording" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="145" name="Archive" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="146" name="Sync Dialog" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="147" name="Mix" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="148" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="149" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="150" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="151" name="Foley" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="152" name="Recording" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="153" name="Archive" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="154" name="Insert" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="155" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="156" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="157" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="158" name="Music" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="159" name="Aquire" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="160" name="Archive" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="161" name="Insert" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="162" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="163" name="Confirm License" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="164" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="165" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="166" name="Color Grade" note="" work="144000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="167" name="Grade Planning" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="168" name="Grade" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="169" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="170" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="171" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="172" name="Final Edit" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="173" name="Confirm Needs" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="174" name="Confirm Credits" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="175" name="Final Edit" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="176" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="177" name="Backup Project File" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="178" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="179" name="Final Audio" note="" work="144000" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="180" name="Stereo Mix" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="181" name="Stereo Master" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="182" name="Surround Mix" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="183" name="Surround Master" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="184" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="185" name="Conforming" note="" work="172800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="186" name="Conform A/V" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="187" name="Insert Closed Captioning" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="188" name="Insert Subtitles" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="189" name="Generate Deliverable" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="190" name="Archive" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="191" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="192" name="Final Review" note="" work="86400" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="193" name="Personal Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="194" name="Team Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="195" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="196" name="Test" note="" work="115200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="197" name="Schedule Test Audience" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="198" name="Test" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="199" name="Review" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="200" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+    </task>
+    <task id="201" name="Distribution" note="" work="201600" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="202" name="Cast and Crew Screening" note="" work="115200" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="203" name="Schedule Screening" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="204" name="Schedule Party" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="205" name="Screening Day" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="206" name="AAR" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="207" name="Festival Release" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="208" name="Wide Release" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="209" name="Post Release Tasks" note="" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+    <task id="210" name="Project AAR" note="Testing to see what this note does if anything" work="28800" start="20190708T000000Z" end="20190708T170000Z" work-start="20190708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>
